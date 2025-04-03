@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import './Dashboard.css';
+import './dashboard.css';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import { isAuthenticated, logout, setAuthHeader } from '../../utils/auth';
