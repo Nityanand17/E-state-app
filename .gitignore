@@ -1,0 +1,41 @@
+# Dependencies
+node_modules
+/.pnp
+.pnp.js
+
+# Testing
+/coverage
+
+# Production
+/build
+/dist
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs
+*.log
+
+# Editor directories and files
+.idea
+.vscode
+*.swp
+*.swo
+.DS_Store
+
+# Misc
+.cache
+.project
+.settings
+.tmproj
+.node_repl_history
+*.tgz
+.yarn-integrity 
